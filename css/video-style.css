@@ -1,0 +1,28 @@
+.video {
+    height: 700px;
+    background: url("../img/video.png");
+    background-position: 100% 100%;
+    margin-top: -42px;
+}
+
+.video h2 {
+    padding-top: 150px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 85px;
+}
+
+.video i {
+    display: inline-block;
+    width: 40px;
+    height: 60px;
+    background: #ffcc00;
+    color: #ba0000;
+    border-radius: 50%;
+    padding-left: 30px;
+    padding-top: 10px;
+    position: relative;
+    left: 45%;
+}

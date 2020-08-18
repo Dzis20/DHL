@@ -1,0 +1,47 @@
+.news {
+    padding-top: 100px;
+    padding-bottom: 105px;
+    background: #ba0000;
+    
+}
+.news .container {
+    position: relative;
+}
+.news h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.news p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+
+}
+
+.news a {
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 4;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(160, 0, 0);
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    bottom: 35%;
+    border: 2px solid transparent;
+    font-weight: 600;
+}
+.news a:hover {
+    border: 2px solid #ffcc00;
+    color: #ba0000;
+    background: #ffcc00;
+
+}

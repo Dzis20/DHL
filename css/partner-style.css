@@ -1,0 +1,37 @@
+.partner {
+    padding: 70px 0;
+    background: #ffffff;
+}
+.partner  a {
+    display: inline-block;
+    margin-right: 25px;
+    border: 2px solid transparent;
+    height: 127px;
+    width: 266px;
+    text-align: center;
+    vertical-align: top;
+    background: #f9f9f9;
+
+}
+.partner a:last-child {
+    margin-right: 0; 
+}
+.partner a:first-child img {
+    position: relative;
+    top: 42px;
+}
+.partner a:nth-child(2) img {
+    position: relative;
+    top: 42px;
+}
+.partner a:nth-child(3) img {
+    position: relative;
+    top: 42px;
+}
+.partner a:last-child img {
+    position: relative;
+    top: 42px;
+}
+.partner a:hover {
+    border: 2px solid #ba0000;
+}

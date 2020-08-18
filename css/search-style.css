@@ -1,0 +1,167 @@
+.search {
+    color: black;
+    background: #ffffff;
+    padding-bottom: 100px;
+}
+
+.form-search {
+    width: 570px;
+    display: inline-block;
+    margin-right: 125px;
+    vertical-align: top;
+}
+.tabs {
+    font-size: 0;
+    max-width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tabs>input[type="radio"] {
+    display: none;
+  }
+
+  .tabs>div {
+    /* скрыть контент по умолчанию */
+    display: none;
+    /* border: 1px solid #e0e0e0; */
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+  #tab-btn-1:checked~#content-1, #tab-btn-2:checked~#content-2 {
+    display: block;
+  }
+
+  .tabs>label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 14px;
+    line-height: 1.5;
+    cursor: pointer;
+    position: relative;
+    width: 285px;
+    height: 37px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 13px;
+    
+  }
+label.search-label-1 {
+    background: #ba0000;
+    color: #ffffff;
+}
+label.search-label-2 {
+    background: #ffcc00;
+    color: #ba0000;
+}
+
+.tabs>label:not(:first-of-type) {   
+    border-left: none;
+}
+  #content-1 {
+    background: #ba0000;
+    min-height: 437px;
+    padding-top: 40px;
+}
+#content-2 {
+    background: #ffcc00;
+    height: 467px;
+}
+
+
+
+  /* скрываем чекбоксы и блоки с содержанием */
+.hide {
+    display: none; 
+
+}
+.hide + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide + label {
+    position: relative;
+    left: 20px;
+    display: inline-block;
+    width: 419px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    text-align: left;
+    border: 2px solid #ffffff;
+    border-right: none;
+    color: white;
+    font-weight: 600;
+    padding-top: 14px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.hide + label i {
+    display: inline-block;
+    position: absolute;
+    right: -56px;
+    top: -2px;
+    width: 32px;
+    height: 34px;
+    border: 2px solid #ffffff;
+    padding-top: 20px;
+    padding-left: 22px;
+}
+
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: #ba0000;
+    background: #ffcc00;
+    border-color: #ffcc00;
+    border-right-color: #ba0000;
+}
+.hide:checked + label i {
+    background: #ffcc00;
+    border-color: #ffcc00;
+    border-left: 2px solid #ba0000;
+}
+
+  
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    position: relative;
+    top: -10px;
+    left: 20px;
+    width: 473px;
+    display: block; 
+    border: 2px solid #ffcc00;
+    padding-left: 20px;
+}
+.hide:checked + label + div h3 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+ul.search-nav {
+    list-style: none;
+    padding: 0;
+}
+ul.search-nav li {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+ul.search-nav li i {
+    margin-right: 10px;
+    color: #ffcc00;
+}
+
+/* demo контейнер */
+/* .demo {
+    margin: 5% 10%;
+} */
+.search-img {
+    width: 470px;
+    display: inline-block;
+}
